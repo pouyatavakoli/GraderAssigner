@@ -60,6 +60,14 @@ def main():
         # Save results
         df = pd.DataFrame(students)
         df.to_csv(args.output, index=False)
+
+        # Add footer
+        with open(args.output, 'a') as f:
+
+            f.write('\n')  # Empty line separator
+            f.write('Generated with ❤️ using GraderAssigner\n')
+            f.write('https://github.com/pouyatavakoli/GraderAssigner\n')
+        
         
         # Print summary
         print(f"✅ Results saved to {args.output}")

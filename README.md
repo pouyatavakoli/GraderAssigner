@@ -39,13 +39,13 @@ pip install -r requirements.txt
 ### 4. Prepare Your Files
 Create these files in the project folder:
 
-**students.csv** (student list)
+- **students.csv** (student list)
 
 keep the header as the example below
 
 you can also export Comma-separated values (CSV) from any platform (eg. google sheets) and paste it here but remember to fix the headers
 
-**pro tip:** for persian names the headers may seem to be in wrong order when exporting as csv don't change it, let it be is it is!
+**pro tip:** for persian names the headers may seem to be in wrong order when exporting as csv. don't change it, let it be as it is!
 
 ```csv
 student_number,student_name
@@ -53,7 +53,7 @@ student_number,student_name
 54321,name 2
 ```
 
-**graders.txt** (who will grade)
+- **graders.txt** (who will grade)
 
 write one name per line
 
@@ -62,7 +62,7 @@ grader_1
 grader_2
 ```
 
-**submitted.json** (who submitted - you'll create this next using the scrape.js script)
+- **submitted.json** (who submitted - you'll create this next using the scrape.js script)
 
 the file content should look like this in the end
 ```json

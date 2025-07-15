@@ -123,6 +123,7 @@ Customize the tool's behavior with these flags:
 | `--submitted` | `submitted.json` | Path to submission data JSON |
 | `--graders` | `graders.txt` | Path to grader list text file |
 | `--output` | `grading_assignments.csv` | Output file path |
+| `----check-missing` | `False` | Check for submissions that are not in students file |
 
 ### Examples:
 ```bash
